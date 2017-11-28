@@ -17,7 +17,7 @@ To compile vasm you first have to choose a Makefile which fits for your host arc
 * `Makefile.Win32` - makes Windows executable with MS-VSC++
 * `Makefile.Win32FromLinux` - makes Windows executable on Linux
 
-Then select a CPU- and a syntax-module to compile. Do this by defining CPU and SYNTAX for your Makefile, e.g.
+Then select a CPU- and a syntax-module to compile. Do this by defining `CPU` and `SYNTAX` for your Makefile, e.g.
 
 ```
 make CPU=m68k SYNTAX=mot
