@@ -49,4 +49,4 @@ SYNTAX=oldstyle
 SYNTAX=test
 ```
 
-The Makefile will then generate a vasm-binary called: vasm<CPU>_<SYNTAX>[_<HOST>]
+The Makefile will then generate a vasm-binary called: `vasm<CPU>_<SYNTAX>[_<HOST>]`
